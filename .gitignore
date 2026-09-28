@@ -1,0 +1,25 @@
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and private memory
+.env
+.env.*
+!.env.example
+/memory/local/
+/memory/runtime/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated files
+/build/
+/dist/
+*.log
